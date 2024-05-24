@@ -1,3 +1,20 @@
 .text-Pacifico{
     font-family: "Pacifico", cursive;
 }
+.text-PT{
+    font-family: "PT Sans Caption", sans-serif;
+}
+.form-control:focus {
+    box-shadow: unset;
+    border-color: rgb(217, 156, 57);
+}
+.butt-sunmit{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 45%;
+    width: 150px;
+}
+.bg-green{
+    background-color: #8a9e23;
+}

@@ -23,34 +23,32 @@
 <body>
     <div class="book-mark">
         <div class="container">
-            <h1 class="py-2 text-Pacifico">Bookmaker</h1>
-            <div class="row">
+            <h1 class="py-5 text-Pacifico text-center">Bookmaker</h1>
+            <h2 class="py-2 text-center text-PT"><i
+                    class="fa-solid fa-bookmark"></i> Bookmark your favorite
+                sites <i class="fa-solid fa-bookmark"></i></h2>
+            <div class="row py-5 m-md-5">
                 <div class="col-md-12">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1"
-                                class="form-label"><i
-                                    class="fa-solid fa-book-bookmark"></i> Site
-                                Name</label>
-                            <input type="email" class="form-control"
-                                id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1"
-                                class="form-label"><i
-                                    class="fa-solid fa-link"></i> Site
-                                URL</label>
-                            <input type="password" class="form-control"
-                                id="exampleInputPassword1">
-                        </div>
-                        <button type="submit"
-                            class="btn btn-primary">Submit</button>
-                    </form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"><i
+                                class="fa-solid fa-book-bookmark"></i> Site
+                            Name</label>
+                        <input type="text" class="form-control" id="bookmaker"
+                            placeholder="Bookmark Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><i
+                                class="fa-solid fa-link"></i> Site
+                            URL</label>
+                        <input type="text" class="form-control" id="urlsite"
+                            placeholder="Website URL">
+                    </div>
+                    <button type="button" class="btn btn-danger butt-sunmit"
+                        id="addBtn">Submit</button>
                 </div>
-                <div class="col-md-12">
-                    <table class="table">
-                        <thead>
+                <div class="col-md-12 bg-white" id="outputSite">
+                    <!-- <table class="table">
+                        <thead class="d-">
                             <tr>
                                 <th scope="col">Index</th>
                                 <th scope="col">Website Name</th>
@@ -70,7 +68,7 @@
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table> -->
                 </div>
             </div>
         </div>
