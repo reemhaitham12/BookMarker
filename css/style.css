@@ -1,3 +1,8 @@
+body{
+    background-color: #F8F9D7;
+}
+
+
 .text-Pacifico{
     font-family: "Pacifico", cursive;
 }
@@ -17,4 +22,23 @@
 }
 .bg-green{
     background-color: #8a9e23;
+    transition: all 0.2s;
+    border-radius: 5px;
+    border: none;
+}
+.bg-green:hover{
+    background-color: #7c8f1e;
+}
+.table-list{
+    background-color: #f8f9fa;
+}
+h2{
+    color: #EF4040;
+}
+h2 i{
+    color: #dc3545;    
+}
+
+td{
+    display: table-cell;
 }

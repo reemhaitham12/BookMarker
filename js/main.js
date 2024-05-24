@@ -29,7 +29,7 @@ function addSite() {
 // ! function display //
 
 function display() {
-    //var tableSite = "";
+    
     var tableSite = `
     <table class="table table-light">
         <thead>
@@ -52,7 +52,7 @@ function display() {
                                     class="bg-green btn text-white"><i class="fa-solid fa-eye text-white"></i> Visit</button>
                                 </td>
                                 <td class="col-md-3"><button type="button"
-                                    class="btn btn-primary" onclick="deleteSite(${i})"> <i class="fa-solid fa-trash-can"></i> Delete</button>
+                                    class="btn btn-danger" onclick="deleteSite(${i})"> <i class="fa-solid fa-trash-can"></i> Delete</button>
                                 </td>
                             </tr>
                         
