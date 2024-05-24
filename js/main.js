@@ -81,3 +81,6 @@ addsubmit.onclick = function () {
     display();
     // console.log("hello")
 }
+
+
+// commit -m " "
