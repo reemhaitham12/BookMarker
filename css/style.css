@@ -13,11 +13,11 @@ body{
     box-shadow: unset;
     border-color: rgb(217, 156, 57);
 }
-.butt-sunmit{
+.butt-submit{
     margin-top: 15px;
     margin-bottom: 20px;
     position: relative;
-    left: 45%;
+    left: 44%;
     width: 150px;
 }
 .bg-green{
@@ -41,4 +41,28 @@ h2 i{
 
 td{
     display: table-cell;
+}
+.custom-bg-color {
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+
+
+.model-box{
+    max-width: 380px;
+    width: 100%;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+.model-box i{
+    font-size: 15px;
+    color: #8a9e23;
+    font-weight: bold;
 }

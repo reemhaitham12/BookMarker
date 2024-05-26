@@ -26,25 +26,37 @@
             <h1 class="py-5 text-Pacifico text-center">Bookmaker</h1>
             <h2 class="py-2 text-center text-PT fs-4 hcolor fw-bold"><i
                     class="fa-solid fa-bookmark"></i> Bookmark your favorite
-                sites <i class="fa-solid fa-bookmark"></i></h2>
+                sites</h2>
             <div class="row py-5 m-md-5">
                 <div class="col-md-12">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label"><i
                                 class="fa-solid fa-book-bookmark"></i> Site
                             Name</label>
-                        <input type="text" class="form-control" id="bookmaker"
+                        <input type="text" class="form-control" id="bookmaker" oninput="ValidationName()"
                             placeholder="Bookmark Name">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label"><i
                                 class="fa-solid fa-link"></i> Site
                             URL</label>
-                        <input type="text" class="form-control" id="urlsite"
+                        <input type="text" class="form-control" id="urlsite" oninput="ValidationSite()"
                             placeholder="Website URL">
                     </div>
-                    <button type="button" class="btn btn-danger butt-sunmit"
+                    <button type="button" class="btn btn-danger butt-submit"
                         id="addBtn">Submit</button>
+                </div>
+                <div class="col-md-6 d-none" id="ShowBox">
+                    <section>
+                        <div class="model-box bg-light py-2 custom-bg-color">
+                            <i class="fa-solid fa-x d-flex justify-content-end align-items-start py-2" id="closeBtn"></i>
+                            <p class="fs-5 ">Site Name or Url is not valid, Please follow the rules below :</p>
+                            <ul class="list-unstyled fs-5">
+                                <li><i class="fa-regular fa-circle-right"></i> Site name must contain at least 3 characters</li>
+                                <li><i class="fa-regular fa-circle-right"></i> Site URL must be a valid one</li>
+                            </ul>
+                        </div>
+                    </section>
                 </div>
                 <div class="table table-list mt-4 " id="outputSite">
                 </div>
